@@ -31,7 +31,7 @@ This four course Specialization gave a comprehensive understanding of state-of-t
 <p float="left">
   <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/2-disparity-map.png" width="200" />
   <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/3-depth-map.png" width="200" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/4-cross-corelation.png" width="220" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/4-cross-corelation.png" width="200" />
   <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/5-obstacle-detection.png" width="220" />
 </p>
 
