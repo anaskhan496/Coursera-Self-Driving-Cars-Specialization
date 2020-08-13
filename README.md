@@ -20,8 +20,8 @@ This four course Specialization gave a comprehensive understanding of state-of-t
 
 ###### **Vehicle State Estimation on a Roadway using Error-State EKF** (https://rb.gy/7rgac1)
 <p float="left">
-  <img src="2_State_Estimation_and_Localization/Final%20-%20Vehicle%20State%20Estimation%20on%20a%20Roadway/images/Part1-Ground-Truth-vs-Estimated.png" width="800" />
-  <img src="2_State_Estimation_and_Localization/Final%20-%20Vehicle%20State%20Estimation%20on%20a%20Roadway/images/Part1-Error-Plots.png" width="650" /> 
+  <img src="2_State_Estimation_and_Localization/Final%20-%20Vehicle%20State%20Estimation%20on%20a%20Roadway/images/Part1-Ground-Truth-vs-Estimated.png" width="750" />
+  <img src="2_State_Estimation_and_Localization/Final%20-%20Vehicle%20State%20Estimation%20on%20a%20Roadway/images/Part1-Error-Plots.png" width="600" /> 
 </p>
 
 
@@ -29,10 +29,10 @@ This four course Specialization gave a comprehensive understanding of state-of-t
 ###### **Applying Stereo Depth to a Driving Scenario** (https://rb.gy/spligv)
 - Obstacle detection using disparity map, depth map and, cross-corelation matrix computations.
 <p float="left">
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/2-disparity-map.png" width="220" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/3-depth-map.png" width="220" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/4-cross-corelation.png" width="240" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/5-obstacle-detection.png" width="240" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/2-disparity-map.png" width="200" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/3-depth-map.png" width="200" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/4-cross-corelation.png" width="220" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module1/images/5-obstacle-detection.png" width="220" />
 </p>
 
 ###### **Visual Odometry for Localization in Autonomous Driving** (https://rb.gy/9vqt9k)
@@ -43,21 +43,21 @@ This four course Specialization gave a comprehensive understanding of state-of-t
 ###### Environment Perception For Self-Driving Cars (https://rb.gy/vbx5cw)
 - Estimation of ground plane using RANSAC algorithm
 <p float="left">
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/1-Test-Image.png" width="400" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/2-Ground-Plane-RANSAC.png" width="400" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/1-Test-Image.png" width="350" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/2-Ground-Plane-RANSAC.png" width="350" />
 </p>
 
 - Lane line detection using Canny edge detection, Hough transform and,merging & filtering.
 <p float="left">
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_0-Canny-Edge-Hough-Transform.png" width="300" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_1-Merging-Lane-Lines.png" width="300" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_2-Filtered-Lane-Line.png" width="300" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_0-Canny-Edge-Hough-Transform.png" width="250" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_1-Merging-Lane-Lines.png" width="250" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/3_2-Filtered-Lane-Line.png" width="250" />
 </p>
 
 - Filtering 2D detection output using Semantic Segmentation results.
 <p float="left">
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/4_0-Unfiltered-Bounding-Box.png" width="330" />
-  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/4_1-Filtered-Bounding-Box.png" width="330" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/4_0-Unfiltered-Bounding-Box.png" width="300" />
+  <img src="3_Visual_Perception_for_Self_Driving_Cars/module6/output_images/4_1-Filtered-Bounding-Box.png" width="300" />
 </p>
 
 - Distance to impact estimation.
