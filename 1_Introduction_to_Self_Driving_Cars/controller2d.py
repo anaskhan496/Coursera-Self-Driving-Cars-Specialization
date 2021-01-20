@@ -182,7 +182,7 @@ class Controller2D(object):
             uks = self._uk1s + (k_1s * errors) + (k_2s * self._er_1s) + (k_3s * self._er_2s)
             uks = uks
             self._uk1s = uks
-            self._er_2s = er_1s
+            self._er_2s = self._er_1s
             self._er_1s = errors
 
             ######################################################
@@ -198,10 +198,18 @@ class Controller2D(object):
 
             #pure pursuit controller
             length = len(waypoints)
-            dx = [x - waypoints[icx][0] for icx in range(length)]
-            dy = [y - waypoints[icy][1] for icy in range(length)]
-            d = [abs(np.sqrt(idx ** 2 + idy ** 2)) for (idx,idy) in zip(dx,dy)]
+            dx = []
+            dy = []
+            d = []
+            for i in range(length):
+                dx.append(x-waypoints[i][0])
+                dy.append(y-waypoints[i][1])
+
+            for (ix, iy) in zip(dx,dy):
+                d.append(abs(np.sqrt(ix ** 2 + iy ** 2)))
+            
             ind = d.index(min(d))
+
             if ind < 2:
                 tx = waypoints[ind][0]
                 ty = waypoints[ind][1]
@@ -212,7 +220,7 @@ class Controller2D(object):
             alpha_hat = np.arctan2(ty - y,tx - x) #desired heading
             alpha = alpha_hat - yaw #desired heading - vehicle heading, this will be used to control the cross track error
             Lf = self._pure_pursuit_gain * v + self._lookahead_distance # lookahead (ld) which is a function of Pure pursuit gain (gain/Kdd) and a looahead distance Lfc.
-            steer_output = np.arctan2((2.0 * self._wheelbase * np.sin(alpha)) , Lf) #formula of pure pursuit 
+            steer_output = np.arctan2((2.0 * self._wheelbase * np.sin(alpha)) , Lf) #formula of pure pursuit
 
             # a = waypoints[0][1] - ty
             # b = tx - waypoints[0][0]
