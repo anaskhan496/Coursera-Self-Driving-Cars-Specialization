@@ -9,8 +9,10 @@ This four course Specialization by University of Toronto on Coursera gave a comp
 
 
 ## Part 1 - Introduction to Self-Driving Cars
-###### [**Self Driving Vehicle Control**](https://rb.gy/220yta)
-<img src="1_Introduction_to_Self_Driving_Cars/videos/Carla-Simulator.png" alt="Carla" style="width:20 height:20">
+###### [**Waypoint Following Using Longitudinal and Lateral Control**](https://rb.gy/220yta)
+
+###### Click on the image below to play video:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YO6fLnddDkM/0.jpg)](https://www.youtube.com/watch?v=YO6fLnddDkM)
                                     
 
 ## Part 2 - State Estimation and Localization
